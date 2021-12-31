@@ -19,7 +19,7 @@ const Feature = ({ title, desc, ...rest }) => {
   }
 
 const FirstNote = () =>{
-    const poem = <Text w="100%" fontSize='md' color='black'>
+    const poem = <Text w="100%">
         <p>
         Welcome to your first adventure<br/>
         A website on ur name<br/>
@@ -46,7 +46,7 @@ const FirstNote = () =>{
 
 const FullClue = () =>{
     return(
-    <Box>
+    <Box mt={5}>
         <Feature
             title='Final Clue'
             desc='Use the first letter from all the above answer and feed the info to the box'
