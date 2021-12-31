@@ -14,6 +14,10 @@ const Feature = ({ title, desc, ...rest }) => {
 const Clues =() => {
     return (
       <Stack spacing={8}>
+          <Feature
+          title='Africa'
+          desc='I was born in this place but they didnt accept me for my color of skin'
+        />
         <Feature
           title='Big Brother and Me'
           desc='You once saw me in a concert with a brother.'
@@ -22,10 +26,7 @@ const Clues =() => {
           title='Song'
           desc='I have been loving you too long is one of my song'
         />
-        <Feature
-          title='Africa'
-          desc='I was born in this place but they didnt accept me for my color of skin'
-        />
+        
       </Stack>
     )
   }
