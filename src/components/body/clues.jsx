@@ -16,7 +16,7 @@ const Clues =() => {
       <Stack spacing={8}>
         <Feature
           title='Big Brother and Me'
-          desc='You once saw me in a concert'
+          desc='You once saw me in a concert with a brother.'
         />
         <Feature
           title='Song'

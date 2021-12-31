@@ -23,7 +23,7 @@ const FullClue = () =>{
     <Box>
         <Feature
             title='Final Clue'
-            desc='Use the first letter from all the above answers and feed the info to the box'
+            desc='Use the first letter from all the above answer and feed the info to the box'
             />
     </Box>
     )
