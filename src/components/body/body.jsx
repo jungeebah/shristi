@@ -18,6 +18,32 @@ const Feature = ({ title, desc, ...rest }) => {
     )
   }
 
+const FirstNote = () =>{
+    const poem = <Text w="100%" fontSize='md' color='black'>
+        <p>
+        Welcome to your first adventure<br/>
+        A website on ur name<br/>
+        Lean back and relax<br/>
+        The journey has just begun<br/>
+        </p>
+        <p>
+        find the name in the clue<br/>
+        use them to built a tool<br/>
+        through which you will find<br/>
+        a wishful note of mine<br/>
+
+        </p>
+    </Text>
+    return (
+        <Box mt={5} mb={5}>
+        <Feature
+            title='Lets Begin'
+            desc={poem}
+            />
+    </Box>
+    )
+}
+
 const FullClue = () =>{
     return(
     <Box>
@@ -55,6 +81,9 @@ const Body = () => {
             wrap="wrap"
             padding={5}
             color="dark">
+            <Stack spacing={8} >
+                <FirstNote/>
+            </Stack>
             <Clues/>
             <Box mb={5}></Box>
             <Stack spacing={8} >
